@@ -1,0 +1,15 @@
+{
+  "name": "@dataclod/app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @dataclod/ui run dev",
+    "build": "pnpm --filter @dataclod/ui run build",
+    "preview": "pnpm --filter @dataclod/ui run preview",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.8"
+  }
+}
